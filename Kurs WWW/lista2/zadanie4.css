@@ -1,0 +1,17 @@
+#element {
+    border: 1px solid red;
+    padding: 20px;
+    width: 210px;
+}
+ 
+#element:before {
+    content: 'before';
+    border: 1px solid green;
+    padding: 10px;
+}
+ 
+#element:after {
+    content: 'after';
+    border: 1px solid blue;
+    padding: 10px;
+}

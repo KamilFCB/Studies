@@ -1,0 +1,57 @@
+h3:first-of-type{
+    color: red;
+}
+
+h4:last-of-type{
+    color: blue;
+}
+
+h2:only-of-type{
+    color: yellow;
+}
+
+h5:nth-child(1){
+    color: green;
+}
+
+div h4:nth-last-child(1)
+{
+    color: purple;
+}
+
+div h1:nth-of-type(2)
+{
+    color: grey;
+}
+
+div div:nth-last-of-type(1)
+{
+    color: orange;
+}
+
+div span:last-child{
+    color: brown;
+}
+
+:root{
+    background-color: azure;
+}
+
+h2:empty{
+    background-color: yellow;
+    height: 10px;
+}
+
+span :not(a){
+    color: cyan;
+}
+/*
+::-moz-selection { 
+    color: red;
+    background: yellow;
+}
+*/
+::selection{
+    color: red;
+    background: yellow;
+}

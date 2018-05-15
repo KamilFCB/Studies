@@ -1,0 +1,22 @@
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\MvcExample\bin\Debug\netcoreapp2.0\MvcExample.deps.json
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\MvcExample\bin\Debug\netcoreapp2.0\MvcExample.runtimeconfig.json
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\MvcExample\bin\Debug\netcoreapp2.0\MvcExample.runtimeconfig.dev.json
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\MvcExample\bin\Debug\netcoreapp2.0\MvcExample.dll
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\MvcExample\bin\Debug\netcoreapp2.0\MvcExample.pdb
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\MvcExample\obj\Debug\netcoreapp2.0\MvcExample.csprojResolveAssemblyReference.cache
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\MvcExample\obj\Debug\netcoreapp2.0\MvcExample.csproj.CoreCompileInputs.cache
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\MvcExample\obj\Debug\netcoreapp2.0\MvcExample.AssemblyInfoInputs.cache
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\MvcExample\obj\Debug\netcoreapp2.0\MvcExample.AssemblyInfo.cs
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\MvcExample\obj\Debug\netcoreapp2.0\MvcExample.dll
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\MvcExample\obj\Debug\netcoreapp2.0\MvcExample.pdb
+D:\Studia\Kurs WWW\lista7\zad2\bin\Debug\netcoreapp2.0\MvcExample.deps.json
+D:\Studia\Kurs WWW\lista7\zad2\bin\Debug\netcoreapp2.0\MvcExample.runtimeconfig.json
+D:\Studia\Kurs WWW\lista7\zad2\bin\Debug\netcoreapp2.0\MvcExample.runtimeconfig.dev.json
+D:\Studia\Kurs WWW\lista7\zad2\bin\Debug\netcoreapp2.0\MvcExample.dll
+D:\Studia\Kurs WWW\lista7\zad2\bin\Debug\netcoreapp2.0\MvcExample.pdb
+D:\Studia\Kurs WWW\lista7\zad2\obj\Debug\netcoreapp2.0\MvcExample.csprojResolveAssemblyReference.cache
+D:\Studia\Kurs WWW\lista7\zad2\obj\Debug\netcoreapp2.0\MvcExample.csproj.CoreCompileInputs.cache
+D:\Studia\Kurs WWW\lista7\zad2\obj\Debug\netcoreapp2.0\MvcExample.AssemblyInfoInputs.cache
+D:\Studia\Kurs WWW\lista7\zad2\obj\Debug\netcoreapp2.0\MvcExample.AssemblyInfo.cs
+D:\Studia\Kurs WWW\lista7\zad2\obj\Debug\netcoreapp2.0\MvcExample.dll
+D:\Studia\Kurs WWW\lista7\zad2\obj\Debug\netcoreapp2.0\MvcExample.pdb

@@ -1,0 +1,22 @@
+c:\users\kamil\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\PoczekalniaApi.deps.json
+c:\users\kamil\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\PoczekalniaApi.runtimeconfig.json
+c:\users\kamil\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\PoczekalniaApi.runtimeconfig.dev.json
+c:\users\kamil\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\PoczekalniaApi.dll
+c:\users\kamil\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\PoczekalniaApi.pdb
+c:\users\kamil\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\PoczekalniaApi.csprojResolveAssemblyReference.cache
+c:\users\kamil\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\PoczekalniaApi.csproj.CoreCompileInputs.cache
+c:\users\kamil\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\PoczekalniaApi.AssemblyInfoInputs.cache
+c:\users\kamil\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\PoczekalniaApi.AssemblyInfo.cs
+c:\users\kamil\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\PoczekalniaApi.dll
+c:\users\kamil\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\PoczekalniaApi.pdb
+D:\Studia\Kurs WWW\lista8\bin\Debug\netcoreapp2.0\PoczekalniaApi.deps.json
+D:\Studia\Kurs WWW\lista8\bin\Debug\netcoreapp2.0\PoczekalniaApi.runtimeconfig.json
+D:\Studia\Kurs WWW\lista8\bin\Debug\netcoreapp2.0\PoczekalniaApi.runtimeconfig.dev.json
+D:\Studia\Kurs WWW\lista8\bin\Debug\netcoreapp2.0\PoczekalniaApi.dll
+D:\Studia\Kurs WWW\lista8\bin\Debug\netcoreapp2.0\PoczekalniaApi.pdb
+D:\Studia\Kurs WWW\lista8\obj\Debug\netcoreapp2.0\PoczekalniaApi.csprojResolveAssemblyReference.cache
+D:\Studia\Kurs WWW\lista8\obj\Debug\netcoreapp2.0\PoczekalniaApi.csproj.CoreCompileInputs.cache
+D:\Studia\Kurs WWW\lista8\obj\Debug\netcoreapp2.0\PoczekalniaApi.AssemblyInfoInputs.cache
+D:\Studia\Kurs WWW\lista8\obj\Debug\netcoreapp2.0\PoczekalniaApi.AssemblyInfo.cs
+D:\Studia\Kurs WWW\lista8\obj\Debug\netcoreapp2.0\PoczekalniaApi.dll
+D:\Studia\Kurs WWW\lista8\obj\Debug\netcoreapp2.0\PoczekalniaApi.pdb

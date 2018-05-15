@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kurs WWW - Kamil Woś</title>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <style>
+            .slider {
+                width: 300px;
+                height: 300px;
+                position: absolute;
+            }
+            
+            img {
+                width: 300px;
+                height: 300px;
+            }
+            
+            .slajd {
+                position: absolute;
+            }
+            
+            #img2 {
+                display: none;
+            }
+            #img3 {
+                display: none;
+            }
+            #img4 {
+                display: none;
+            }
+        </style>
+        <script>
+            var img = 1;
+            var timer;
+            
+            $(document).ready(function(){
+                timer = setInterval(function(){
+                    if(img == 4)
+                    {
+                        $("#img"+img).fadeOut(1500);
+                        img = 1;
+                        $("#img"+img).fadeIn(1500);
+                    }
+                    else
+                    {
+                        $("#img"+img).fadeOut(1500);
+                        img++;
+                        $("#img"+img).fadeIn(1500);
+                    }
+                }, 4000);
+                
+                $(".slider").mouseover(function(){
+                    clearInterval(timer);
+                });
+                $(".slider").mouseleave(function(){
+                        timer = setInterval(function(){
+                        if(img == 4)
+                        {
+                            $("#img"+img).fadeOut(1500);
+                            img = 1;
+                            $("#img"+img).fadeIn(1500);
+                        }
+                        else
+                        {
+                            $("#img"+img).fadeOut(1500);
+                            img++;
+                            $("#img"+img).fadeIn(1500);
+                        }
+                    }, 4000);
+                });
+            });
+            
+            
+        </script>
+    </head>
+    <body>
+        <div class="slider">
+            <div class="slajd" id="img1">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/41M9ItqBG%2BL.jpg">
+            </div>
+            <div class="slajd" id="img2">
+                <img src="https://www.wikipasy.pl/images/8/86/Real_Madryt_herb.png">
+            </div>
+            <div class="slajd" id="img3">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Borussia_Dortmund_Banner.svg/1000px-Borussia_Dortmund_Banner.svg.png">
+            </div>
+            <div class="slajd" id="img4">
+                <img src="http://sklep.lovefootball.pl/img/p/1/4/7/3/1473-thickbox_default.jpg">
+            </div>
+                        
+        </div>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: 100%;
+    width: 15%;    
+    background-color: LightCyan;
+}
+
+.header {
+    height: 100%;
+    width: 85%;
+    background-color: Lavender;
+}
+
+.container {
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+}
+
+.menu {
+    height: 50px;
+    width: 100%;
+    background-color: LightSalmon;
+}
+
+.submenu {
+    height: 100%;
+    width: 15%;
+    background-color: BlueViolet;
+}
+
+.tresc {
+    height: 100%;
+    width: 85%;
+    background-color: AliceBlue;
+}
+
+footer {
+    height: 100px;
+    background-color: LightGreen;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}

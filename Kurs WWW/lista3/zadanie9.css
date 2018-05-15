@@ -1,0 +1,29 @@
+img {
+    width: 300px;
+    height: 300px;
+    transition: .5s ease;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    float: left;
+}
+
+.napis {
+    transition: .5s ease;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    opacity: 0;
+    font-size: 30px;
+}
+
+.container:hover img {
+    filter: blur(20px);
+}
+
+.container:hover .napis {
+    opacity: 1;
+}

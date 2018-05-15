@@ -1,0 +1,84 @@
+.main1 {
+    margin: 20px;
+    width: 500px;
+    height: 150px;
+    display: flex;
+}
+
+.main1 div:nth-of-type(1) {
+    flex-grow: 1;
+    background-color: green;
+}
+.main1 div:nth-of-type(2) {
+    flex-grow: 1;
+    background-color: yellow;
+}
+.main1 div:nth-of-type(3) {
+    flex-grow: 3;
+    background-color: red;
+}
+.main1 div:nth-of-type(4) {
+    flex-grow: 1;
+    background-color: purple;
+}
+.main1 div:nth-of-type(5) {
+    flex-grow: 1;
+    background-color: blue;
+}
+
+.main2 {
+    margin: 20px;
+    width: 500px;
+    height: 150px;
+    display: flex;
+}
+
+.main2 div {
+    flex-basis: 80px;
+}
+
+
+.main2 div:nth-of-type(1) {
+    background-color: green;
+}
+.main2 div:nth-of-type(2) {
+    background-color: yellow;
+}
+.main2 div:nth-of-type(3) {
+    background-color: red;
+    flex-basis: 180px;
+}
+.main2 div:nth-of-type(4) {
+    background-color: purple;
+}
+.main2 div:nth-of-type(5) {
+    background-color: blue;
+}
+
+.main3 {
+    margin: 20px;
+    width: 400px;
+    height: 150px;
+    display: flex;
+}
+
+.main3 div {
+    flex-basis: 100px;    
+}
+
+.main3 div:nth-of-type(1) {
+    background-color: green;
+}
+.main3 div:nth-of-type(2) {
+    background-color: yellow;
+}
+.main3 div:nth-of-type(3) {
+    background-color: red;
+    flex-shrink: 5;
+}
+.main3 div:nth-of-type(4) {
+    background-color: purple;
+}
+.main3 div:nth-of-type(5) {
+    background-color: blue;
+}

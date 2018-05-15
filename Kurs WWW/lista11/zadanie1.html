@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kurs WWW - Kamil Woś</title>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJbJdQHfanBWmCYJjcvgyqXTgOOcBynoI&callback=initMap">
+        </script>
+        <style>
+            #map {
+                width: 700px;
+                height: 400px;
+                background-color: grey;
+            }
+        </style>
+        <script>
+            var listaMarker = [];
+            var licznik = 0;
+            
+                          
+            function initMap()
+            {
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 14,
+                    disableDefaultUI: true,
+                    disableDoubleClickZoom: true,
+                    mapTypeControlOptions: {
+                        mapTypeIds: ['Styled']
+                    },
+                    center: new google.maps.LatLng(51.1085167, 17.0356508)
+                });
+                
+                google.maps.event.addListener(map, "dblclick", function (event) {
+                    var latitude = event.latLng.lat();
+                    var longitude = event.latLng.lng();
+                
+                    dodajMarker(latitude, longitude);
+                
+                    var marker = new google.maps.Marker({
+                        position: {lat: latitude, lng: longitude},
+                        map: map
+                    });
+                
+                    listaMarker.push(marker);
+                
+                });
+                
+            }
+            
+            function dodajMarker(latitude, longitude)
+            {
+
+                var nowy = '<div id="' + (licznik) + '">' +
+                  '<div>' + (licznik+1) + '. latitude: ' + latitude + ' longitude: ' + longitude + '</div>' +
+                  '<div> <button onclick="pokazMarker(this)">Pokaż</button> ' +
+                  '<button onclick="usunMarker(this);">Usuń</button> ' +
+                  '</div> </div>';
+              
+                document.getElementById('latLongList').innerHTML += nowy;
+                licznik++;
+            }
+            
+            function pokazMarker(marker)
+            {
+                var id = marker.parentNode.parentNode.getAttribute('id');
+                listaMarker[id].okienko = new google.maps.InfoWindow({
+                    content: 'To tutaj'
+                });
+                listaMarker[id].okienko.open(map, listaMarker[id]);
+                for(i=0; i<=licznik; i++)
+                {
+                    if(i==id)
+                        continue;
+                    listaMarker[i].okienko.close(map, listaMarker[i]);
+                }
+                
+            }
+              
+              function usunMarker(marker)
+              {
+                var id = marker.parentNode.parentNode.getAttribute('id');
+                listaMarker[Number(id)].setMap(null);
+                var parent = marker.parentNode.parentNode;
+                parent.parentNode.removeChild(parent);
+            }
+            
+        </script>
+    </head>
+    <body>
+        <div id="map"></div>
+        <div id="latLongList" class="list"></div>
+    </body>
+</html>

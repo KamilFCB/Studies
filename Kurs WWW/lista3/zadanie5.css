@@ -1,0 +1,25 @@
+.pierwsza {
+    list-style-image: url('kropka.png');
+}
+
+.druga {
+    list-style: none;
+    
+}
+
+.druga :before {
+    content: "• ";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.trzecia {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.trzecia li {
+    background: url('kropka.png') no-repeat left;
+    padding-left: 15px;
+}

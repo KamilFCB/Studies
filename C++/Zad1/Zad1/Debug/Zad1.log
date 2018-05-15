@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\studia\c++\zad1\zad1\main.cpp(25): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+  Zad1.vcxproj -> D:\Studia\C++\Zad1\Debug\Zad1.exe
+  Zad1.vcxproj -> D:\Studia\C++\Zad1\Debug\Zad1.pdb (Partial PDB)

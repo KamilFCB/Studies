@@ -1,0 +1,49 @@
+﻿@model IPagedList<MvcExample.Models.Person>
+@using PagedList.Mvc;
+@using PagedList;
+@using System.Web;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>Imię</th>
+            <th>Nazwisko</th>
+            <th>Adres</th>
+        </tr>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.FirstName</td>
+                <td>@p.LastName</td>
+                <td>@p.Address</td>
+            </tr>
+        }
+    </table>
+    <br />
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+    @if (Model.PageNumber > 1)
+    {
+        <a href="@Url.Action("Index", new { pageNumber = Model.PageNumber - 1 })">
+            Prev
+        </a>
+    }
+    @if (Model.PageNumber < Model.PageCount)
+    {
+        <a href="@Url.Action("Index", new { pageNumber = Model.PageNumber + 1 })">
+            Next
+        </a>
+    }
+    <br />
+    @for(int i=1; i<=Model.PageCount; i++)
+    {
+        <a href="@Url.Action("Index", new { pageNumber = i})">@Html.Raw(i)</a>
+    }
+
+</body>
+</html>

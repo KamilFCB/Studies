@@ -1,0 +1,22 @@
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\RazorTemplates\bin\Debug\netcoreapp2.0\RazorTemplates.deps.json
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\RazorTemplates\bin\Debug\netcoreapp2.0\RazorTemplates.runtimeconfig.json
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\RazorTemplates\bin\Debug\netcoreapp2.0\RazorTemplates.runtimeconfig.dev.json
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\RazorTemplates\bin\Debug\netcoreapp2.0\RazorTemplates.dll
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\RazorTemplates\bin\Debug\netcoreapp2.0\RazorTemplates.pdb
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\RazorTemplates\obj\Debug\netcoreapp2.0\RazorTemplates.csprojResolveAssemblyReference.cache
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\RazorTemplates\obj\Debug\netcoreapp2.0\RazorTemplates.csproj.CoreCompileInputs.cache
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\RazorTemplates\obj\Debug\netcoreapp2.0\RazorTemplates.AssemblyInfoInputs.cache
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\RazorTemplates\obj\Debug\netcoreapp2.0\RazorTemplates.AssemblyInfo.cs
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\RazorTemplates\obj\Debug\netcoreapp2.0\RazorTemplates.dll
+C:\Users\Kamil\Downloads\tint-p06-aspnetcore\tint-p06-aspnetcore\aspnetcore\RazorTemplates\obj\Debug\netcoreapp2.0\RazorTemplates.pdb
+D:\Studia\Kurs WWW\lista7\zad3\bin\Debug\netcoreapp2.0\RazorTemplates.deps.json
+D:\Studia\Kurs WWW\lista7\zad3\bin\Debug\netcoreapp2.0\RazorTemplates.runtimeconfig.json
+D:\Studia\Kurs WWW\lista7\zad3\bin\Debug\netcoreapp2.0\RazorTemplates.runtimeconfig.dev.json
+D:\Studia\Kurs WWW\lista7\zad3\bin\Debug\netcoreapp2.0\RazorTemplates.dll
+D:\Studia\Kurs WWW\lista7\zad3\bin\Debug\netcoreapp2.0\RazorTemplates.pdb
+D:\Studia\Kurs WWW\lista7\zad3\obj\Debug\netcoreapp2.0\RazorTemplates.csprojResolveAssemblyReference.cache
+D:\Studia\Kurs WWW\lista7\zad3\obj\Debug\netcoreapp2.0\RazorTemplates.csproj.CoreCompileInputs.cache
+D:\Studia\Kurs WWW\lista7\zad3\obj\Debug\netcoreapp2.0\RazorTemplates.AssemblyInfoInputs.cache
+D:\Studia\Kurs WWW\lista7\zad3\obj\Debug\netcoreapp2.0\RazorTemplates.AssemblyInfo.cs
+D:\Studia\Kurs WWW\lista7\zad3\obj\Debug\netcoreapp2.0\RazorTemplates.dll
+D:\Studia\Kurs WWW\lista7\zad3\obj\Debug\netcoreapp2.0\RazorTemplates.pdb

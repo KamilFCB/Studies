@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kurs WWW - Kamil Woś</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="zadanie3.css">
+        
+        <script>
+            var timer;
+            var zaliczone = 0;
+            var flaga = false;
+            var start = false;
+            function czas_start()
+            {
+                if(zaliczone < 5 && !start)
+                {
+                    start = true;
+                    timer = setInterval(function(){
+                        czas = document.getElementById("wynik").innerHTML;
+                        czas = parseInt(czas);
+                        czas++;
+                        document.getElementById("wynik").innerHTML = czas;
+                    }, 1000);
+                }
+            }
+            function czas_stop()
+            {
+                if(flaga)
+                {
+                    zaliczone++;
+                    flaga = false;
+                    if(zaliczone == 5)
+                    {
+                        element = document.createElement("LI");
+                        element.innerHTML = document.getElementById("wynik").innerHTML + "s";
+                        document.getElementById("wyniki").appendChild(element);
+                        document.getElementById("wynik").innerHTML = 0;
+                        for(i=1; i<=5; i++)
+                        {
+                            tmp = "cel"+i;
+                            document.getElementById(tmp).style.backgroundColor = "aliceblue";
+                        }
+                        clearInterval(timer);
+                        zaliczone = 0;
+                        flaga = false;
+                        start = false;
+                    }
+                }
+            }
+            
+            function zalicz(id)
+            {
+                kolor = document.getElementById(id).style.backgroundColor;
+                
+                if(kolor == "red" && !flaga && start)
+                {
+                    tmp = document.getElementById("wynik").innerHTML;
+                    tmp = parseInt(tmp);
+                    tmp += 3;
+                    document.getElementById("wynik").innerHTML = tmp;
+                    return;
+                }
+                if(!flaga && start)
+                {
+                    document.getElementById(id).style.backgroundColor = "red";
+                    flaga = true;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="centrum" onmouseleave="czas_start();" onmouseenter="czas_stop();">
+                <p id="czas">Czas: <span id="wynik">0</span>s</p>
+            </div>
+            <div class="cel1" id="cel1" onmouseenter='zalicz("cel1");'></div>
+            <div class="cel2" id="cel2" onmouseenter='zalicz("cel2");'></div>
+            <div class="cel3" id="cel3" onmouseenter='zalicz("cel3");'></div>
+            <div class="cel4" id="cel4" onmouseenter='zalicz("cel4");'></div>
+            <div class="cel5" id="cel5" onmouseenter='zalicz("cel5");'></div>
+        </div>
+        Wyniki:
+            <ul id="wyniki">
+                    
+             </ul>
+    </body>
+</html>

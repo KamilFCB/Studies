@@ -1,0 +1,22 @@
+.srodek {
+    margin: 50px;
+    border: 2px solid black;
+    padding: 50px;
+}
+
+span {
+    margin: 50px;
+    border: 2px solid black;
+    padding: 50px;
+}
+
+.container {
+    margin: 50px;
+    padding: 25px;
+    background-color: lightgreen;
+}
+
+.napis {
+    border: 3px solid black;
+    text-align: center;
+}

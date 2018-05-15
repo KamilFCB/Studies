@@ -1,0 +1,11 @@
+D:\Studia\Kurs WWW\lista7\zad4\bin\Debug\netcoreapp2.0\FormValidation.deps.json
+D:\Studia\Kurs WWW\lista7\zad4\bin\Debug\netcoreapp2.0\FormValidation.runtimeconfig.json
+D:\Studia\Kurs WWW\lista7\zad4\bin\Debug\netcoreapp2.0\FormValidation.runtimeconfig.dev.json
+D:\Studia\Kurs WWW\lista7\zad4\bin\Debug\netcoreapp2.0\FormValidation.dll
+D:\Studia\Kurs WWW\lista7\zad4\bin\Debug\netcoreapp2.0\FormValidation.pdb
+D:\Studia\Kurs WWW\lista7\zad4\obj\Debug\netcoreapp2.0\FormValidation.csprojResolveAssemblyReference.cache
+D:\Studia\Kurs WWW\lista7\zad4\obj\Debug\netcoreapp2.0\FormValidation.csproj.CoreCompileInputs.cache
+D:\Studia\Kurs WWW\lista7\zad4\obj\Debug\netcoreapp2.0\FormValidation.AssemblyInfoInputs.cache
+D:\Studia\Kurs WWW\lista7\zad4\obj\Debug\netcoreapp2.0\FormValidation.AssemblyInfo.cs
+D:\Studia\Kurs WWW\lista7\zad4\obj\Debug\netcoreapp2.0\FormValidation.dll
+D:\Studia\Kurs WWW\lista7\zad4\obj\Debug\netcoreapp2.0\FormValidation.pdb

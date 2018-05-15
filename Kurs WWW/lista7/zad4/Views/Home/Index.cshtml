@@ -1,0 +1,22 @@
+﻿@model FormValidation.Models.Car
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FormSimple</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary()
+        <table border="1">
+            <tr><td>@Html.LabelFor(e => e.numerRejestracyjny)</td><td>@Html.EditorFor(e => e.numerRejestracyjny) @Html.ValidationMessageFor(model => model.numerRejestracyjny)</td></tr>
+            <tr><td>@Html.LabelFor(e => e.dataRejestracji)</td><td>@Html.EditorFor(e => e.dataRejestracji) @Html.ValidationMessageFor(model => model.dataRejestracji)</td></tr>
+            <tr><td>@Html.LabelFor(e => e.Marka)</td><td>@Html.EditorFor(e => e.Marka) @Html.ValidationMessageFor(model => model.Marka)</td></tr>
+            <tr><td>@Html.LabelFor(e => e.rokProdukcji)</td><td>@Html.EditorFor(e => e.rokProdukcji) @Html.ValidationMessageFor(model => model.rokProdukcji)</td></tr>
+            <tr><td>@Html.LabelFor(e => e.Paliwo)</td><td>@Html.EditorFor(e => e.Paliwo) @Html.ValidationMessageFor(model => model.Paliwo)</td></tr>
+        </table>
+        <input type="submit" />
+        @Html.AntiForgeryToken()
+    }
+</body>
+</html>

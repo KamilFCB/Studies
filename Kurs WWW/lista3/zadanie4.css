@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 225px;
+    background-color: red;
+}
+
+.item {
+    margin: 0.5%;
+    width: 24%;
+    height: 200px;
+    float: left;
+    background-color: lightgreen;
+}
+

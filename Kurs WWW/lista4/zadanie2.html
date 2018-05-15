@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kurs WWW - Kamil Woś</title>
+        <meta charset="UTF-8">
+        <script>
+            function test_pesel()
+            {
+                var re = new RegExp('[0-9]{11}');
+                var val = document.getElementById("pesel").value;
+                if(!re.test(val) || val.length != 11)
+                    alert("Błędny pesel");
+            }
+            
+            function test_konto()
+            {
+                var re = new RegExp('[0-9]{26}');
+                var val = document.getElementById("konto").value;
+                if(!re.test(val) || val.length != 26)
+                    alert("Błędny numer konta");
+            }
+            
+            function test_data()
+            {
+                var re = new RegExp('[1-9][0-9]{3}[-][0-3][1-9][-][0-3][0-9]');
+                var val = document.getElementById("data").value;
+                if(!re.test(val))
+                    alert("Błędna data");
+                
+            }
+            
+            function test_email()
+            {
+                var re = new RegExp("[a-z]{1}[@][a-z]{4}", "i");
+                var val = document.getElementById("email").value;
+                if(!re.test(val))
+                    alert("Błędny e-mail");
+            }
+            
+            function test()
+            {
+                test_konto();
+                test_pesel();
+                test_data();
+                test_email();
+                
+            }
+        </script>
+    </head>
+    <body>
+        <form method="post">
+            <input type="number" name="konto" id="konto" onchange="test_konto();" placeholder="Numer konta"> <br>
+            <input type="number" name="pesel" id="pesel" onchange="test_pesel();" placeholder="Pesel"> <br>
+            <input type="date" name="data" id="data" onchange="test_data();"> <br>
+            <input type="email" name="email" id="email" onchange="test_email();" placeholder="E-mail"> <br>
+            <button onclick="test();">Wyślij</button>
+            
+        </form>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+﻿  Zad8.cpp
+d:\studia\c++\zad8\zad8\bst.h(31): warning C4346: 'struktury::bst<T>::node': dependent name is not a type
+  d:\studia\c++\zad8\zad8\bst.h(31): note: prefix with 'typename' to indicate a type
+  d:\studia\c++\zad8\zad8\bst.h(43): note: see reference to class template instantiation 'struktury::bst<T>' being compiled
+d:\studia\c++\zad8\zad8\bst.h(31): error C2061: syntax error: identifier 'node'
+d:\studia\c++\zad8\zad8\bst.h(133): error C2065: 'r': undeclared identifier
+d:\studia\c++\zad8\zad8\bst.h(133): warning C4346: 'struktury::bst<T>::node': dependent name is not a type
+  d:\studia\c++\zad8\zad8\bst.h(133): note: prefix with 'typename' to indicate a type
+d:\studia\c++\zad8\zad8\bst.h(133): error C2182: 'copy': illegal use of type 'void'
+d:\studia\c++\zad8\zad8\bst.h(133): error C2470: 'struktury::bst<T>::copy': looks like a function definition, but there is no parameter list; skipping apparent body
+d:\studia\c++\zad8\zad8\bst.h(133): error C2072: 'struktury::bst<T>::copy': initialization of a function

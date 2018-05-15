@@ -1,0 +1,10 @@
+.sr_div {
+    margin: 0 auto;
+    width: 50%;
+    border: 3px solid black;
+    height: 50px;
+}
+
+.sr_span {
+    text-align: center;
+}
