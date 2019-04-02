@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method="GET">
+        <div><input type="text" name="imie" placeholder="Imie" value="<%= imie %>"></div>
+        <div><input type="text" name="nazwisko" placeholder="Nazwisko" value="<%= nazwisko %>"></div>
+        <div><input type="text" name="zajecia" placeholder="Nazwa zajęć" value="<%= zajecia %>"></div>
+        <% for(var i = 1; i <= 10; i++){ %>
+            <div><input type="number" name="zad<%= i %>" placeholder="Zadanie <%= i %>" value="<%= punkty[i-1] %>"></div>
+        <% } %>
+        <button>Wyślij</button>
+    </form>
+</body>
+</html>

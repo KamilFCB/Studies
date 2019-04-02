@@ -1,0 +1,9 @@
+<form method="GET">
+    <% options.forEach( option => { %>
+    <div>
+    <input type="checkbox" value='<%= option.value %>' name='<%= option.name %>'>
+        <%= option.text %>
+    </div>
+    <% }) %>
+    <button type="submit">Wyślij</button>
+</form>
